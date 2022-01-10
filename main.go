@@ -33,8 +33,8 @@ func initDB() {
 		database.Config{
 			ServerName: "localhost:3306",
 			User:       "root",
-			Password:   "root",
-			DB:         "learning_demo",
+			Password:   "Kriday@6317",
+			DB:         "learning",
 		}
 
 	connectionString := database.GetConnectionString(config)
